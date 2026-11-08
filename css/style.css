@@ -2252,29 +2252,3 @@ button {
     margin: 18px auto;
   }
 }
-
-/* CORRECCIÓN DE PORTADA EN CELULARES */
-@media (max-width: 600px) {
-  .hero-player {
-    top: auto;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 390px;
-  }
-
-  .hero-player img {
-    inset: auto 0 0 auto;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    object-position: right bottom;
-    transform: none;
-  }
-
-  .hero-copy {
-    position: relative;
-    z-index: 5;
-  }
-}
