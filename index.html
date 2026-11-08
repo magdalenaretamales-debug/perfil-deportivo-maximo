@@ -1,0 +1,515 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Perfil deportivo de Maxi. Trayectoria, características, fotografías y video de jugadas.">
+  <meta name="theme-color" content="#080808">
+  <title>Maxi | Perfil futbolístico</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+  <div class="page-loader" aria-hidden="true">
+    <span class="loader-crown">♛</span>
+    <span class="loader-line"></span>
+  </div>
+
+  <!-- ENCABEZADO -->
+  <header class="site-header" id="inicio">
+
+    <a class="brand" href="#inicio" aria-label="Volver al inicio">
+      <span class="brand-crown">♛</span>
+      <span class="brand-name">MAXI <small>Perfil Deportivo</small></span>
+    </a>
+
+    <button class="menu-toggle"
+      aria-label="Abrir menú"
+      aria-expanded="false"
+      aria-controls="main-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="main-nav" id="main-nav">
+      <a class="nav-link active" href="#inicio">Inicio</a>
+      <a class="nav-link" href="#perfil">Perfil</a>
+      <a class="nav-link" href="#trayectoria">Trayectoria</a>
+      <a class="nav-link" href="#videos">Videos</a>
+      <a class="nav-link" href="#galeria">Galería</a>
+      <a class="nav-link" href="#contacto">Contacto</a>
+    </nav>
+
+  <a class="header-download"
+   href="documentos/cvdeportivomaximo.pdf"
+   target="_blank"
+   rel="noopener noreferrer">
+  <span aria-hidden="true">↓</span> Descargar CV
+</a>
+
+  </header>
+
+  <main>
+
+    <!-- PORTADA PRINCIPAL -->
+    <section class="hero section-anchor" aria-labelledby="hero-title">
+
+      <div class="hero-noise"></div>
+      <div class="hero-gold-sweep"></div>
+
+      <div class="hero-copy">
+
+        <p class="eyebrow reveal">
+          PERFIL DEPORTIVO <span>•</span> CHILE
+        </p>
+
+        <h1 id="hero-title" class="hero-title reveal">
+          <span>MÁXIMO </span>
+          <strong>NECULMÁN</strong>
+        </h1>
+
+        <p class="hero-subtitle reveal">
+          FUTBOLISTA PROFESIONAL EN FORMACIÓN
+        </p>
+
+        <div class="hero-motto reveal">
+          <span>DISCIPLINA</span>
+          <i></i>
+          <span>ESFUERZO</span>
+          <i></i>
+          <span>SUPERACIÓN</span>
+        </div>
+
+        <ul class="quick-facts reveal" aria-label="Datos deportivos principales">
+
+          <li>
+            <span class="fact-icon">⚽</span>
+            <span>Posición
+              <strong data-field="position">Extremo derecho / Lateral derecho</strong>
+            </span>
+          </li>
+
+          <li>
+            <span class="fact-icon">♜</span>
+            <span>Categoría
+              <strong data-field="category">Juvenil 2015</strong>
+            </span>
+          </li>
+
+          <li>
+            <span class="fact-icon">↗</span>
+            <span>Estatura
+              <strong data-field="height">1.60</strong>
+            </span>
+          </li>
+
+          <li>
+            <span class="fact-icon">➤</span>
+            <span>Pierna hábil
+              <strong data-field="foot">Derecha</strong>
+            </span>
+          </li>
+
+        </ul>
+
+        <a class="button button-gold reveal" href="#videos">
+          <span class="play-icon">▶</span>
+          Ver video de jugadas
+        </a>
+
+      </div>
+
+      <!-- FOTOGRAFÍA PRINCIPAL -->
+      <div class="hero-player" role="img" aria-label="Fotografía principal de Maxi">
+
+        <div class="player-number" aria-hidden="true">7</div>
+
+        <img
+          src="assets/images/maxiprincipal.png"
+          alt="Maxi en su uniforme de fútbol"
+          onerror="this.style.display='none'; this.parentElement.classList.add('photo-missing');"
+        >
+
+        <div class="photo-hint">
+          <span>+</span> Agrega aquí la fotografía principal de Maxi
+        </div>
+
+      </div>
+
+      <div class="hero-bottom-line">
+        <span>THE GAME IS MY PASSION</span>
+        <i></i>
+        <span>PLAYER Nº 7</span>
+      </div>
+
+    </section>
+
+    <!-- ACCESOS RÁPIDOS -->
+    <section class="quick-menu" aria-label="Secciones del perfil">
+
+      <a href="#trayectoria" class="quick-menu-item">
+        <span class="gold-icon">♜</span>
+        <strong>Trayectoria</strong>
+        <small>Clubes y competencias</small>
+      </a>
+
+      <a href="#logros" class="quick-menu-item">
+        <span class="gold-icon">✦</span>
+        <strong>Habilidades</strong>
+        <small>Fortalezas deportivas</small>
+      </a>
+
+      <a href="#perfil" class="quick-menu-item">
+        <span class="gold-icon">▥</span>
+        <strong>Perfil</strong>
+        <small>Presentación del jugador</small>
+      </a>
+
+      <a href="#contacto" class="quick-menu-item">
+        <span class="gold-icon">✉</span>
+        <strong>Contacto</strong>
+        <small>Oportunidades deportivas</small>
+      </a>
+
+    </section>
+
+    <!-- SOBRE MÍ Y HABILIDADES -->
+    <section class="content-grid section-anchor" id="perfil">
+
+      <article class="about-card panel reveal">
+
+        <p class="section-kicker">01 / PRESENTACIÓN</p>
+
+        <h2>Sobre <span>mí</span></h2>
+
+        <p class="body-copy">
+          Soy un futbolista en formación que trabaja cada día para superarse. Me esfuerzo en cada entrenamiento, manteniendo la constancia, disciplina y compromiso con mis objetivos. Sé que cada día es una nueva oportunidad para aprender, mejorar y acercarme a mi sueño de convertirme en futbolista profesional.
+        </p>
+
+
+      </article>
+
+      <article class="skills-card panel section-anchor reveal" id="logros">
+
+        <p class="section-kicker">02 / FORTALEZAS</p>
+
+        <h2>Habilidades <span>deportivas</span></h2>
+
+        <ul class="skill-list">
+          <li><span>✓</span> Técnica y control del balón</li>
+          <li><span>✓</span> Visión de juego</li>
+          <li><span>✓</span> Trabajo en equipo</li>
+          <li><span>✓</span> Disciplina y compromiso</li>
+        </ul>
+
+      </article>
+
+    </section>
+
+    <!-- TRAYECTORIA DEPORTIVA -->
+    <section class="trajectory-section section-anchor" id="trayectoria">
+
+      <article class="trajectory-card panel reveal">
+
+        <p class="section-kicker">03 / EXPERIENCIA</p>
+
+        <h2>Trayectoria <span>deportiva</span></h2>
+
+        <!-- LÍNEA DE TIEMPO EN UNA SOLA COLUMNA -->
+        <div class="timeline-columns timeline-single-column">
+
+          <div class="timeline-column">
+
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div>
+                <strong>Escuela de Fútbol Coliseo</strong>
+                <small>2021</small>
+                <p>
+  Aquí comencé mi formación futbolística y aprendí mis primeros fundamentos y habilidades dentro de la cancha.
+</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div>
+                <strong>Escuela de Fútbol Colo-Colo El Quisco</strong>
+                <small>2022 – 2023</small>
+             <p>
+  Continué mi formación, mejorando mi técnica y desarrollando nuevas habilidades futbolísticas.
+</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div>
+                <strong>Club Deportivo El Yeco</strong>
+                <small>2024 – Actualidad</small>
+<p>
+  Actualmente sigo vinculado al club y participo en encuentros deportivos que me permiten mantenerme activo y seguir creciendo como jugador.
+</p>                
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div>
+                <strong>Escuela Municipal de Fútbol de Algarrobo</strong>
+                <small>2024 – 2025</small>
+                <p>
+  Participé en entrenamientos y actividades de formación que me ayudaron a fortalecer mis capacidades deportivas.
+</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div>
+                <strong>Escuela de Fútbol Universidad Católica – San Carlos de Apoquindo</strong>
+                <small>2025</small>
+                <p>
+  Tuve la oportunidad de participar en procesos de formación futbolística y pruebas internas, donde adquirí nuevas experiencias y desafíos.
+</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div>
+                <strong>Try Out BTalentStar</strong>
+                <small>2026</small>
+                <p>
+  Participé en un proceso de evaluación de talentos futbolísticos y fui seleccionado para continuar mi formación en Universidad de Chile.
+</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div>
+                <strong>Clan Ninja</strong>
+                <small>2026 – Actualidad</small>
+                <p>
+  Actualmente participo en actividades deportivas de carácter competitivo, sumando experiencia y fortaleciendo mi desarrollo futbolístico.
+</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div>
+                <strong>Universidad de Chile</strong>
+                <small>2026 – Actualidad</small>
+                <p>
+  Actualmente continúo mi formación futbolística, trabajando para mejorar mis capacidades técnicas, tácticas y deportivas.
+</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- FORMACIÓN Y PROYECCIÓN -->
+        <div class="projection-card">
+
+          <p class="section-kicker">04 / PROYECCIÓN</p>
+
+          <h3>Formación y <span>proyección deportiva</span></h3>
+
+          <p class="body-copy">
+  A lo largo de estos años he mantenido una preparación constante, participando en diferentes pruebas y procesos de evaluación deportiva. Cada experiencia me ha permitido aprender, ganar confianza y seguir mejorando. Mi objetivo es continuar creciendo como futbolista, trabajando con disciplina, constancia y perseverancia para acercarme a mi sueño de convertirme en jugador profesional.
+</p>
+
+        </div>
+
+      </article>
+
+    </section>
+
+    <!-- VIDEO -->
+   
+<!-- VIDEO -->
+<section class="video-section section-anchor" id="videos">
+
+  <div class="section-heading reveal">
+
+    <div>
+      <p class="section-kicker">05 / SCOUTING VIDEO</p>
+      <h2>Mis mejores <span>jugadas</span></h2>
+    </div>
+
+    <p>
+      Técnica, velocidad y desempeño en cancha.
+    </p>
+
+  </div>
+
+  <div class="video-frame reveal video-vertical">
+
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/XsuHqVUJUFQ"
+      title="Jugadas de Máximo Neculman"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
+
+  </div>
+
+</section>
+
+
+   
+<!-- GALERÍA DEPORTIVA -->
+<section class="gallery-section section-anchor" id="galeria">
+
+  <div class="section-heading reveal">
+    <div>
+      <p class="section-kicker">06 / MOMENTOS EN CANCHA</p>
+      <h2>Galería <span>deportiva</span></h2>
+    </div>
+    <p>Mi experiencia, esfuerzo y pasión por el fútbol.</p>
+  </div>
+
+  <div class="gallery-grid">
+
+    <figure class="gallery-item reveal">
+      <img src="assets/images/catomaxi.jpg" alt="Máximo en actividad deportiva" loading="lazy">
+    </figure>
+
+    <figure class="gallery-item reveal">
+      <img src="assets/images/maxi1.jpeg" alt="Máximo en competencia" loading="lazy">
+    </figure>
+
+    <figure class="gallery-item reveal">
+      <img src="assets/images/maxi2.jpeg" alt="Máximo jugando fútbol" loading="lazy">
+    </figure>
+
+    <figure class="gallery-item reveal">
+      <img src="assets/images/maxi3.jpeg" alt="Máximo durante un partido" loading="lazy">
+    </figure>
+
+    <figure class="gallery-item reveal">
+      <img src="assets/images/maxi4.jpeg" alt="Máximo en acción" loading="lazy">
+    </figure>
+
+    <figure class="gallery-item reveal">
+      <img src="assets/images/maxi5.jpeg" alt="Máximo en cancha" loading="lazy">
+    </figure>
+
+    <figure class="gallery-item reveal">
+      <img src="assets/images/maxi6.jpeg" alt="Máximo en actividad futbolística" loading="lazy">
+    </figure>
+
+    <figure class="gallery-item reveal">
+      <img src="assets/images/maxi7.jpeg" alt="Máximo durante su formación deportiva" loading="lazy">
+    </figure>
+
+    <figure class="gallery-item reveal">
+      <img src="assets/images/maxialgarrobo.jpg" alt="Máximo en Algarrobo" loading="lazy">
+    </figure>
+
+    <figure class="gallery-item reveal">
+      <img src="assets/images/maxicancha.jpg" alt="Máximo en la cancha" loading="lazy">
+    </figure>
+
+    <figure class="gallery-item reveal">
+      <img src="assets/images/maxicato.jpg" alt="Máximo en actividad deportiva" loading="lazy">
+    </figure>
+
+    <figure class="gallery-item reveal">
+      <img src="assets/images/maxicolocolo.jpg" alt="Máximo en Colo-Colo" loading="lazy">
+    </figure>
+
+    <figure class="gallery-item reveal">
+      <img src="assets/images/maxicolocolo1.jpg" alt="Máximo durante su formación en Colo-Colo" loading="lazy">
+    </figure>
+
+
+  </div>
+
+</section>
+
+<!-- VISOR DE FOTOGRAFÍAS -->
+<div class="gallery-lightbox" id="gallery-lightbox" aria-hidden="true">
+  <button class="lightbox-close" aria-label="Cerrar">&times;</button>
+  <button class="lightbox-prev" aria-label="Foto anterior">&#10094;</button>
+  <img src="" alt="Fotografía ampliada" id="lightbox-image">
+  <button class="lightbox-next" aria-label="Foto siguiente">&#10095;</button>
+  <p class="lightbox-counter" id="lightbox-counter"></p>
+</div>
+
+
+<!-- CONTACTO -->
+<section class="contact-section section-anchor" id="contacto">
+  <div class="section-heading reveal">
+    <div>
+      <p class="section-kicker">07 / CONTACTO</p>
+      <h2>Contacta a <span>Mis padres</span></h2>
+    </div>
+    <p>Para consultas, pruebas deportivas y oportunidades, puedes comunicarte con mi familia.</p>
+  </div>
+
+  <div class="contact-grid">
+
+    <article class="contact-card reveal">
+      <span class="contact-label">CONTACTO 01</span>
+      <h3>María Magdalena Retamales</h3>
+      <p class="contact-role">Madre</p>
+
+
+      <a class="contact-email" href="mailto:magdalenaretamales@gmail.com">
+        magdalenaretamales@gmail.com
+      </a>
+    </article>
+
+    <article class="contact-card reveal">
+      <span class="contact-label">CONTACTO 02</span>
+      <h3>Lucas Neculmán</h3>
+      <p class="contact-role">Padre</p>
+
+      
+
+      <a class="contact-email" href="mailto:lucasneculman@gmail.com">
+        lucasneculman@gmail.com
+      </a>
+    </article>
+
+  </div>
+</section>
+
+
+  <!-- PIE DE PÁGINA -->
+  
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-content">
+    <p class="footer-player">MÁXIMO NECULMAN</p>
+    <p>Perfil deportivo · Futbolista en formación</p>
+    <div class="footer-divider"></div>
+    <p class="footer-credit">
+      Diseño y desarrollo por
+      <strong>María Magdalena Retamales Arias</strong>
+    </p>
+    <p class="footer-copy">
+      © 2026 Máximo Neculman. Todos los derechos reservados.
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
